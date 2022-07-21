@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+body table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+body thead {
+  background-color: #0a96ce;
+}
+body tr {
+  border: 1px solid #000;
+}
+body td {
+  border: 1px solid #000;
+}
+body th {
+  border: 1px solid #000;
+}
+body tr:nth-child(2n) {
+  background-color: #77d0f3;
+}/*# sourceMappingURL=main.css.map */

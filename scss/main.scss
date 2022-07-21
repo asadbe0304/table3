@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    table{
+        border-collapse: collapse;
+        border: 1px solid #000;
+    }
+    thead{
+        background-color: #0a96ce;
+    }
+    tr{
+        border: 1px solid #000;
+    }
+    td{
+        border: 1px solid #000;
+    }
+    th{
+        border: 1px solid #000;
+    }
+    tr:nth-child(2n){
+        background-color: #77d0f3;
+    }
+}
